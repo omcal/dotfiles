@@ -1,6 +1,5 @@
 
 " Plugins will be downloaded under the specified directory.
-autocmd VimEnter * echo "Welcome Mate (ɔ◔‿◔)ɔ ♥"
 au VimEnter * NERDTree
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
